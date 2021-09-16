@@ -13,7 +13,7 @@ main ul{
 @media(max-width: 600px){
     main ul{
         grid-template-columns: 1fr;
-    }
+    } 
 }
 
 li.notepad-infos div{

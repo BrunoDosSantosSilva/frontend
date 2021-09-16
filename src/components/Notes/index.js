@@ -5,6 +5,7 @@ function Notes({data}){
         <>
         <li className="notepad-infos">
 
+
             <div>
               <strong>{data.titulo}</strong>
               <span>
