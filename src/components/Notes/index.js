@@ -1,78 +1,18 @@
 import React from 'react';
 
-function Notes(){
+function Notes({data}){
     return(
         <>
         <li className="notepad-infos">
 
             <div>
-              <strong>Fazer compra</strong>
-              <div>
+              <strong>{data.titulo}</strong>
+              <span>
                 x
-              </div>
+              </span>
             </div>
 
-            <textarea>vdsafgdsfdnsbfkjgdaskhjgfjkdhsagbf,jkhkasdbjhf,bfdjhasfklhdslfkhdsajhfbdsah</textarea>
-            <span>!</span>
-          </li>
-          <li className="notepad-infos">
-
-            <div>
-              <strong>Fazer compra</strong>
-              <div>
-                x
-              </div>
-            </div>
-
-            <textarea>vdsafgdsfdnsbfkjgdaskhjgfjkdhsagbf,jkhkasdbjhf,bfdjhasfklhdslfkhdsajhfbdsah</textarea>
-            <span>!</span>
-          </li>
-          <li className="notepad-infos">
-
-            <div>
-              <strong>Fazer compra</strong>
-              <div>
-                x
-              </div>
-            </div>
-
-            <textarea>vdsafgdsfdnsbfkjgdaskhjgfjkdhsagbf,jkhkasdbjhf,bfdjhasfklhdslfkhdsajhfbdsah</textarea>
-            <span>!</span>
-          </li>
-          <li className="notepad-infos">
-
-            <div>
-              <strong>Fazer compra</strong>
-              <div>
-                x
-              </div>
-            </div>
-
-            <textarea>vdsafgdsfdnsbfkjgdaskhjgfjkdhsagbf,jkhkasdbjhf,bfdjhasfklhdslfkhdsajhfbdsah</textarea>
-            <span>!</span>
-          </li>
-          <li className="notepad-infos">
-
-            <div>
-              <strong>Fazer compra</strong>
-              <div>
-                x
-              </div>
-            </div>
-
-            <textarea>vdsafgdsfdnsbfkjgdaskhjgfjkdhsagbf,jkhkasdbjhf,bfdjhasfklhdslfkhdsajhfbdsah</textarea>
-            <span>!</span>
-          </li>
-          <li className="notepad-infos">
-
-            <div>
-              <strong>Fazer compra</strong>
-              <div>
-                x
-              </div>
-            </div>
-
-            <textarea>vdsafgdsfdnsbfkjgdaskhjgfjkdhsagbf,jkhkasdbjhf,bfdjhasfklhdslfkhdsajhfbdsah</textarea>
+            <textarea defaultValue={data.descricao}></textarea>
             <span>!</span>
           </li>
         </>
