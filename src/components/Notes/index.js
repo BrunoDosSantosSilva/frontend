@@ -11,6 +11,7 @@ function Notes({data}){
                 x
               </span>
             </div>
+            
 
             <textarea defaultValue={data.descricao}></textarea>
             <span>!</span>
